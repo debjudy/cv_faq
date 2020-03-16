@@ -12,6 +12,6 @@ People should consider not touching the body of someone who has died of COVID-19
 </br>
 Cleaning should be conducted in accordance with manufacturer&rsquo;s instructions for all cleaning and disinfection products (e.g., concentration, application method and contact time, etc.)
 
-<a href="https://www.epa.gov/sites/production/files/2020-03/documents/sars-cov-2-list_03-03-2020.pdf" target="new">Products with EPA-approved emerging viral pathogens claims</a>
+<a href="https://www.epa.gov/sites/production/files/2020-03/documents/sars-cov-2-list_03-03-2020.pdf" target="_blank">Products with EPA-approved emerging viral pathogens claims</a>
 are expected to be effective against COVID-19 based on data for harder to kill viruses. After removal of PPE, perform
-<a href="https://www.cdc.gov/handwashing/when-how-handwashing.html">hand hygiene</a> by washing hands with soap and water for at least 20 seconds or using an alcohol-based hand sanitizer that contains at least 60% alcohol if soap and water is not available. Soap and water should be used if the hands are visibly soiled.
+<a href="https://www.cdc.gov/handwashing/when-how-handwashing.html target="_blank">hand hygiene</a> by washing hands with soap and water for at least 20 seconds or using an alcohol-based hand sanitizer that contains at least 60% alcohol if soap and water is not available. Soap and water should be used if the hands are visibly soiled.
