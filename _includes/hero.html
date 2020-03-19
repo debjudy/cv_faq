@@ -1,5 +1,8 @@
 <section class="usa-hero hero__no-image">
   <div class="grid-container">
+    {% if site.data.homepage_promotion.banner.display == true %}
+      {% include alert-banner.html banner=site.data.homepage_promotion.banner %}
+    {% endif %}
     <div class="grid-row">
       {% comment %}
       <!-- removing the comment and endcomment will re-enable this section -->
