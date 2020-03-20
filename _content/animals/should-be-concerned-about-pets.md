@@ -14,3 +14,4 @@ While this virus seems to have emerged from an animal source, it is now spreadin
 To date, CDC has not received any reports of pets or other animals becoming sick with COVID-19. At this time, there is no evidence that companion animals including pets can spread COVID-19. However, since animals can spread other diseases to people, it’s always a good idea to wash your hands after being around animals. 
 
 For more information on the many benefits of pet ownership, as well as staying safe and healthy around animals including pets, livestock, and wildlife, visit <a href="https://www.cdc.gov/healthypets/index.html">CDC’s Healthy Pets, Healthy People website</a>.
+
