@@ -30,10 +30,10 @@ if (content) {
   wrapper.classList.remove('display-none');
 
   document.addEventListener('click', function (event) {
+    if (!event.target.hasAttribute('load-questions')) return;
     var content = document.querySelector('#' + event.target.getAttribute('aria-controls'));
-
-      event.target.setAttribute('aria-expanded', true);
-      content.classList.remove('display-none');
-      wrapper.classList.add('display-none');
+    event.target.setAttribute('aria-expanded', true);
+    content.classList.remove('display-none');
+    wrapper.classList.add('display-none');
   });
 }
