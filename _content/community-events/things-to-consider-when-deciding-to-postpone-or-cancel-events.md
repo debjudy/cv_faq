@@ -13,7 +13,7 @@ Consult with local public health officials and continually assess, based on curr
 
 * Overall number of attendees or crowd size.
 * Number of attendees who are at higher risk of developing serious illness from COVID-19. This includes older adults and people with underlying health problems such as lung or heart disease and diabetes.
-* How close together attendees will be at the event.
+* Distance between attendees at the event.
 * Potential ways to minimize economic impact to attendees, staff, and the local community.
 * Amount of spread in local community and the communities from where your attendees are likely to travel.
 * Needs and capacity of the local community to host or participate in your event.

@@ -14,5 +14,5 @@ A novel coronavirus is a new coronavirus that has not been previously identified
 among humans,</a> and cause mild illness, like the common cold.
 
 A diagnosis with coronavirus 229E, NL63, OC43, or HKU1 is not the same as a COVID-19 diagnosis. Patients with COVID-19 will be
-evaluated and cared for differently than patients with common coronavirus diagnosis.
+evaluated and cared for differently than patients with common coronavirus diagnoses.
 
