@@ -1,0 +1,24 @@
+---
+permalink: /preview
+---
+
+{% assign categories = site.content | group_by:"category" %}
+
+{% for cat in categories %}
+
+<h1>{{cat.name}}</h1>
+
+{% for question in cat.items %}
+
+    <p><strong>Title:</strong> {{question.title}}</p>
+    <p><strong>Answer:</strong> {{ question.content | markdownify }}</p>
+    <p><strong>Agency:</strong> {{ question.source }}</p>
+    <p><strong>Citation:</strong> {{ question.source_url}}</p>
+    <p><strong>Updated:</strong> {{ question.date | date:  "%B %d, %Y" }}</p>
+    <hr>
+
+{% endfor %}
+
+<hr>
+
+{% endfor %}
