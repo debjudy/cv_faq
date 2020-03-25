@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<section class="grid-container usa-section usa-section--condensed border-top border-base-lightest">
+  <div class="grid-row">
+    <div class="grid-col-12">
+      <h1>All COVID-19 content</h1>
+    </div>
+    {% for content in site.data.content_data %}
+    <div class="grid-col-12 ">
+      <h2>{{ content.title }}</h2>
+      {% for item in content.items %}
+        <h3>{{ item.question }}</h3>
+        <p>{{ item.answer }}</p>
+        {% endfor %}  
+    </div>
+    {% endfor %}
+  </div>
+</section>
