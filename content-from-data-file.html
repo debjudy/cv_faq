@@ -10,9 +10,9 @@ layout: default
     {% for content in site.data.content_data %}
     <div class="grid-col-12 ">
       <h2>{{ content.title }}</h2>
-      {% for item in content.items %}
-        <h3>{{ item.question }}</h3>
-        <p>{{ item.answer }}</p>
+        {% for item in content.items %}
+          <h3>{{ item.question }}</h3>
+          <p>{{ item.answer }}</p>
         {% endfor %}  
     </div>
     {% endfor %}
