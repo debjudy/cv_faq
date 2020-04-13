@@ -4,11 +4,14 @@ layout: default
 {% assign cdcfaqs = site.content | where:"source", "CDC" | sort: "date" %}
 {% assign femafaqs = site.content | where:"source", "FEMA" | sort: "date" %}
 {% assign treasuryfaqs = site.content | where:"source", "Treasury" | sort: "date" %}
+{% assign sbafaqs = site.content | where:"source", "Small Business Administration" | sort: "date" %}
+{% assign irsfaqs = site.content | where:"source", "IRS" | sort: "date" %}
 
+<!---->
 <section class="grid-container usa-section usa-section--condensed border-top border-base-lightest">
   <div class="grid-row">
     <div class="grid-col-12">
-      <h1>Agencies</h1>
+      <h1>FAQs by agency</h1>
     </div>
 <!-- CDC questions -->    
   <div class="grid-col-12">
@@ -46,7 +49,33 @@ layout: default
         <li class="margin-bottom-2"><a href="{{ treasuryfaq.url }}" class="margin-y-1">{{ treasuryfaq.title }}</a> <span class="text-gray-50"> {{ treasuryfaq.date | date: "%B %d, %Y" }}</span></li>
   {% endfor %}
   </ul>
-</div>  
+</div>
+
+<!-- SBA questions -->
+<div class="grid-col-12">
+  <h2>Small Business Administration</h2> 
+  <p class="text-gray-50">{{ sbafaqs | size }} FAQs</p>
+</div>
+<div class="grid-col-12">
+  <ul>
+  {% for sbafaq in sbafaqs %}
+        <li class="margin-bottom-2"><a href="{{ sbafaq.url }}" class="margin-y-1">{{ sbafaq.title }}</a> <span class="text-gray-50"> {{ sbafaq.date | date: "%B %d, %Y" }}</span></li>
+  {% endfor %}
+  </ul>
+</div> 
+
+<!-- IRS questions -->
+<div class="grid-col-12">
+  <h2>IRS</h2> 
+  <p class="text-gray-50">{{ irsfaqs | size }} FAQs</p>
+</div>
+<div class="grid-col-12">
+  <ul>
+  {% for irsfaq in irsfaqs %}
+        <li class="margin-bottom-2"><a href="{{ irsfaq.url }}" class="margin-y-1">{{ irsfaq.title }}</a> <span class="text-gray-50"> {{ irsfaq.date | date: "%B %d, %Y" }}</span></li>
+  {% endfor %}
+  </ul>
+</div> 
 
 </div>
 </section>
