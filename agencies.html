@@ -1,0 +1,52 @@
+---
+layout: default
+---
+{% assign cdcfaqs = site.content | where:"source", "CDC" | sort: "date" %}
+{% assign femafaqs = site.content | where:"source", "FEMA" | sort: "date" %}
+{% assign treasuryfaqs = site.content | where:"source", "Treasury" | sort: "date" %}
+
+<section class="grid-container usa-section usa-section--condensed border-top border-base-lightest">
+  <div class="grid-row">
+    <div class="grid-col-12">
+      <h1>Agencies</h1>
+    </div>
+<!-- CDC questions -->    
+  <div class="grid-col-12">
+    <h2>CDC</h2> 
+    <p class="text-gray-50">{{ cdcfaqs | size }} FAQs</p>
+  </div>
+  <div class="grid-col-12">
+    <ul>
+    {% for cdcfaq in cdcfaqs %}
+          <li class="margin-bottom-2"><a href="{{ cdcfaq.url }}" class="margin-y-1">{{ cdcfaq.title }}</a> <span class="text-gray-50"> {{ cdcfaq.date | date: "%B %d, %Y" }}</span></li>
+    {% endfor %}
+    </ul>
+  </div>
+<!-- FEMA questions -->
+   <div class="grid-col-12">
+    <h2>FEMA</h2> 
+    <p class="text-gray-50">{{ femafaqs | size }} FAQs</p>
+  </div>
+  <div class="grid-col-12">
+    <ul>
+    {% for femafaq in femafaqs %}
+          <li class="margin-bottom-2"><a href="{{ femafaq.url }}" class="margin-y-1">{{ femafaq.title }}</a> <span class="text-gray-50"> {{ femafaq.date | date: "%B %d, %Y" }}</span></li>
+    {% endfor %}
+    </ul>
+  </div>
+
+<!-- Treasury questions -->
+<div class="grid-col-12">
+  <h2>Treasury</h2> 
+  <p class="text-gray-50">{{ treasuryfaqs | size }} FAQs</p>
+</div>
+<div class="grid-col-12">
+  <ul>
+  {% for treasuryfaq in treasuryfaqs %}
+        <li class="margin-bottom-2"><a href="{{ treasuryfaq.url }}" class="margin-y-1">{{ treasuryfaq.title }}</a> <span class="text-gray-50"> {{ treasuryfaq.date | date: "%B %d, %Y" }}</span></li>
+  {% endfor %}
+  </ul>
+</div>  
+
+</div>
+</section>
