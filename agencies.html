@@ -21,7 +21,7 @@ layout: default
   <div class="grid-col-12">
     <ul>
     {% for cdcfaq in cdcfaqs %}
-          <li class="margin-bottom-2"><a href="{{ cdcfaq.url }}" class="margin-y-1">{{ cdcfaq.title }}</a> <span class="text-gray-50"> {{ cdcfaq.date | date: "%B %d, %Y" }}</span></li>
+          <li class="margin-bottom-2"><a href="{{ cdcfaq.url | relative_url }}" class="margin-y-1">{{ cdcfaq.title }}</a> <span class="text-gray-50"> {{ cdcfaq.date | date: "%B %d, %Y" }}</span></li>
     {% endfor %}
     </ul>
   </div>
@@ -33,7 +33,7 @@ layout: default
   <div class="grid-col-12">
     <ul>
     {% for femafaq in femafaqs %}
-          <li class="margin-bottom-2"><a href="{{ femafaq.url }}" class="margin-y-1">{{ femafaq.title }}</a> <span class="text-gray-50"> {{ femafaq.date | date: "%B %d, %Y" }}</span></li>
+          <li class="margin-bottom-2"><a href="{{ femafaq.url | relative_url }}" class="margin-y-1">{{ femafaq.title }}</a> <span class="text-gray-50"> {{ femafaq.date | date: "%B %d, %Y" }}</span></li>
     {% endfor %}
     </ul>
   </div>
@@ -46,7 +46,7 @@ layout: default
 <div class="grid-col-12">
   <ul>
   {% for treasuryfaq in treasuryfaqs %}
-        <li class="margin-bottom-2"><a href="{{ treasuryfaq.url }}" class="margin-y-1">{{ treasuryfaq.title }}</a> <span class="text-gray-50"> {{ treasuryfaq.date | date: "%B %d, %Y" }}</span></li>
+        <li class="margin-bottom-2"><a href="{{ treasuryfaq.url | relative_url }}" class="margin-y-1">{{ treasuryfaq.title }}</a> <span class="text-gray-50"> {{ treasuryfaq.date | date: "%B %d, %Y" }}</span></li>
   {% endfor %}
   </ul>
 </div>
@@ -59,7 +59,7 @@ layout: default
 <div class="grid-col-12">
   <ul>
   {% for sbafaq in sbafaqs %}
-        <li class="margin-bottom-2"><a href="{{ sbafaq.url }}" class="margin-y-1">{{ sbafaq.title }}</a> <span class="text-gray-50"> {{ sbafaq.date | date: "%B %d, %Y" }}</span></li>
+        <li class="margin-bottom-2"><a href="{{ sbafaq.url | relative_url }}" class="margin-y-1">{{ sbafaq.title }}</a> <span class="text-gray-50"> {{ sbafaq.date | date: "%B %d, %Y" }}</span></li>
   {% endfor %}
   </ul>
 </div> 
@@ -72,7 +72,7 @@ layout: default
 <div class="grid-col-12">
   <ul>
   {% for irsfaq in irsfaqs %}
-        <li class="margin-bottom-2"><a href="{{ irsfaq.url }}" class="margin-y-1">{{ irsfaq.title }}</a> <span class="text-gray-50"> {{ irsfaq.date | date: "%B %d, %Y" }}</span></li>
+        <li class="margin-bottom-2"><a href="{{ irsfaq.url | relative_url }}" class="margin-y-1">{{ irsfaq.title }}</a> <span class="text-gray-50"> {{ irsfaq.date | date: "%B %d, %Y" }}</span></li>
   {% endfor %}
   </ul>
 </div> 
