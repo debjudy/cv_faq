@@ -1,8 +1,8 @@
 ---
-title: What does well controlled mean?
+title: What does a well-controlled health condition mean?
 category: underlying-conditions
 layout: post
-date: March 23, 2020
+date: April 11, 2020
 source: CDC
 promoted: false
 source_url: https://www.cdc.gov/coronavirus/2019-ncov/faq.html#conditions
